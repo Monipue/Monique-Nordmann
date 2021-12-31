@@ -1,0 +1,222 @@
+<html lang="de">
+<head>
+    <title>Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta charset="utf-8"/>
+</head>
+<body>
+<header>
+            <span onclick="window.scrollTo({top:0,behavior:'smooth'})">
+                monique nordmann
+            </span>
+
+    <div id="navbar" class="navigation">
+        <ul>
+            <li>
+                <a href="#about-me">Über mich</a>
+            </li>
+            <li onclick="scrollElement('arbeitszeugnis')">
+                arbeitszeugnis
+            </li>
+            <li onclick="scrollElement('experience')">
+                erfahrung
+            </li>
+        </ul>
+    </div>
+</header>
+<main>
+    <div class="main-content">
+
+        <div id="card" class="main-content--item">
+            <div class="personal-card">
+                <div class="personal-card--text">
+                    <h1>Monique Nordmann</h1>
+                    <h2>Auszubildende 1. Lehrjahr</h2>
+                </div>
+
+                <div class="personal-card--information">
+                    <ul>
+                        <li><b>Telefon</b> +49 1755 8642 68</li>
+                        <li><b>E-Mail</b> monique_nordmann@yahoo.com</li>
+                        <li><b>Wohnort</b> Niedersachsen, Oldenburg, Deutschland</li>
+                    </ul>
+                </div>
+
+                <div id="next-to" class="next-to--informations">
+                    <span onclick="scrollElement('experience')">Weiter zum Lebenslauf <i
+                            class="far fa-arrow-alt-circle-down"></i>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="about-me" class="main-content--item">
+            <div class="text-teaser">
+                <span class="headline">über mich<span></span></span>
+                <p>Ich heiße Monique Nordmann und möchte mich kurz bei Ihnen vorstellen:<br><br>
+                Seit dem 01.09.2021 begann ich meine Ausbildung als Mediengestalterin Fachrichtung Gestaltung und Technik (digital).<br><br>
+                Bisher konnte ich meine hohe Lern- und Einsatzbereitschaft
+                sehr gut unter Beweis stellen. So bin ich meine Aufgaben zuverlässig, pflichtbewusst und kreativ angegangen. Ein Beispiel hierfür ist, dass ich mehrere Logos für unsere Kundin designt 
+                habe und diese in die Präsentation unseres Grafikers aufgenommen wurden. Letztendlich entschied sie sich tatsächlich für eines meiner Entwürfe. Darüber habe ich mich wirklich sehr gefreut. 
+                Des Weiteren habe ich die komplette Geschäftsausstattung bearbeitet, sowie Briefpapier, Visitenkarte und Flyer. Somit darf ich von mir behaupten, dass ich ein ganzes Kundenprojekt fertiggestellt habe.<br><br>
+                In meiner jetzigen Agentur, bin ich für den Kundenkontakt und die Gestaltung der Printmedien zuständig. Vor telefonischen oder persönlichen Kontakt mit Kunden, habe ich keinerlei Scheu, da ich zuvor 
+                jahrelang in der Kundenbetreuung berufstätig war. In den letzten Monaten konnte ich viele Basics mit ADOBE Illustrator, Indesign, Photoshop(ausbaufähig) und html/css erlernen. Ich freue mich schon 
+                darauf, wenn ich endlich lerne eine Website mit Adobe XD zu gestalten oder mit html/css zu entwickeln. Nebenbei versuche ich mich in das Thema html/css so gut wie möglich autodidaktisch einzulesen, 
+                um irgendwann komplexere Websites zu bauen.(Frontend)<br><br>
+                Leider kann ich aus betrieblichen Gründen meine Ausbildung in meinem jetzigen Betrieb nicht fortsetzen. Das heißt, kurz vor Probezeitende, muss ich mich nun nach einen neuen Betrieb umsehen, der 
+                eine fleißige Azubine im ersten Lehrjahr zum Wechsel einstellen würde. Auch, wenn es kein nathloser Übergang werden sollte, werde ich weiterhin die Schule besuchen und weiter um diese Ausbildung 
+                kämpfen, denn sie reflektiert all das, was ich bin: "kreativ, kommunikativ und technikaffin". <br><br>
+                Daher freue ich mich auf eine eventuell postive Rückmeldung mit Einladung zum persönlichen Kennenlernen!
+                </p>
+            </div>
+        </div>
+        
+        <div class="image-container">
+            <img src="Bodypaintpicture.jpg">
+        </div>
+
+        <div id="arbeitszeugnis" class="main-content--item">
+            <div class="text-teaser text--listed">
+                <span class="headline">Arbeitszeugnis<span></span></span>
+
+                <div class="second-image-container">
+                    <img src="Arbeitszeugnis 2021.jpg" alt="Arbeitszeugnis">
+                </div>
+            </div>
+        </div>
+
+        <div id="experience" class="main-content--item">
+            <div class="text-teaser text--tabled">
+                <span class="headline">Berufserfahrung<span></span></span>
+                <ul>
+                    <li>
+                        <span><b>08/2014 - 11/2014</b></span>
+                        <span><b>Ausbildung zur Köchin</b></span>
+                        <span>Restaurant Ali Baba</span>
+                        <span><i>Oldenburg</i></span>
+                    </li>
+                    <li>
+                        <span><b>11/2014 - 02/2015</b></span>
+                        <span><b>Ausbildung zur Köchin</b></span>
+                        <span>Hotel Altera</span>
+                        <span><i>Oldenburg</i></span>
+                    </li>
+                    <li>
+                        <span><b>03/2015 - 10/2015</b></span>
+                        <span><b>Kellnerin/Teilzeit</b></span>
+                        <span>Krauss Eis</span>
+                        <span><i>Oldenburg</i></span>
+                    </li>
+                    <li>
+                        <span><b>11/2016 - 01/2017</b></span>
+                        <span><b>Telefonische Kundenbetreuerin</b></span>
+                        <span>TeleTeam</span>
+                        <span><i>Oldenburg</i></span>
+                    </li>
+                    <li>
+                        <span><b>03/2017 - 04/2017</b></span>
+                        <span><b>Telefonische Interviewerin</b></span>
+                        <span>Telquest</span>
+                        <span><i>Oldenburg</i></span>
+                    </li>
+                    <li>
+                        <span><b>03/2017 - 04/2017</b></span>
+                        <span><b>Telefonische Interviewerin</b></span>
+                        <span>Telquest</span>
+                        <span><i>Parchim</i></span>
+                    </li>
+                    <li>
+                        <span><b>05/2017 - 08/2017</b></span>
+                        <span><b>Bäckereifachverkäuferin</b></span>
+                        <span>Mecklenburger Backstuben</span>
+                        <span><i>Perleberg</i></span>
+                    </li>
+                    <li>
+                        <span><b>11/2017 - 12/2017</b></span>
+                        <span><b>Telefonische Kundenbetreuerin</b></span>
+                        <span>Addecco</span>
+                        <span><i>Wittenberge</i></span>
+                    </li>
+                    <li>
+                        <span><b>12/2017 - 04/2018</b></span>
+                        <span><b>Telefonische Kundenbetreuerin</b></span>
+                        <span>Convergys</span>
+                        <span><i>Schwerin</i></span>
+                    </li>
+                    <li>
+                        <span><b>05/2018 - 08/2018</b></span>
+                        <span><b>Telefonische Kundenbetreuerin</b></span>
+                        <span>Conduent</span>
+                        <span><i>Schwerin</i></span>
+                    </li>
+                    <li>
+                        <span><b>09/2018 - 11/2018</b></span>
+                        <span><b>Telefonische Kundenbetreuerin</b></span>
+                        <span>TicketOnline</span>
+                        <span><i>Parchim</i></span>
+                    </li>
+                    <li>
+                        <span><b>03/2019 - 07/2019</b></span>
+                        <span><b>Telefonische Kundenbetreuerin</b></span>
+                        <span>Invires</span>
+                        <span><i>Home-Office</i></span>
+                    </li>
+                    <li>
+                        <span><b>03/2019 - 07/2019</b></span>
+                        <span><b>Telefonische Kundenbetreuerin</b></span>
+                        <span>Globetrotter</span>
+                        <span><i>Ludwigslust</i></span>
+                    </li>
+                    <li>
+                        <span><b>02/2020 - 03/2020</b></span>
+                        <span><b>Telefonische Kundenbetreuerin</b></span>
+                        <span>S-KON</span>
+                        <span><i>Lüneburg</i></span>
+                    </li>
+                    <li>
+                        <span><b>03/2020 - 06/2020</b></span>
+                        <span><b>Telefonische Kundenbetreuerin</b></span>
+                        <span>DCOM GmbH</span>
+                        <span><i>Ludwigslust</i></span>
+                    </li>
+                    <li>
+                        <span><b>08/2020 - 08/2021</b></span>
+                        <span><b>Telefonische Kundenbetreuerin</b></span>
+                        <span>TrendCOM</span>
+                        <span><i>Oldenburg</i></span>
+                    </li>
+                    <li>
+                        <span><b>09/2021 - heute</b></span>
+                        <span><b>Ausbildung zur Mediengestalterin <br> Fachrichtung Gestaltung und Technik (digital)</b></span>
+                        <span><i>Werbeagentur Gipfelst&uuml;rmer</i></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <span>Made with <i class="far fa-heart"></i> - Monique Nordmann</span>
+        </footer>
+    </div>
+    <div class="main-preview">
+        <div class="main-preview--fixed">
+            <img src="Profilbild_Website.jpg"/></span></span>
+        </div>
+    </div>
+</main>
+
+<script>
+    function scrollElement(element) {
+        const el = document.getElementById(element);
+        window.scrollTo({top: el.offsetTop - 125, behavior: 'smooth'});
+    }
+</script>
+</body>
+</html>
